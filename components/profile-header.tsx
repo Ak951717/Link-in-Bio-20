@@ -1,7 +1,8 @@
 "use client"
 
 import { motion } from "framer-motion"
-import { Badge, CheckCircle, MapPin, Calendar } from "lucide-react"
+import { CheckCircle, MapPin, Calendar } from "lucide-react"
+import { Badge } from "@/components/ui/badge" 
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 import { Button } from "@/components/ui/button"
 
@@ -92,7 +93,7 @@ export function ProfileHeader() {
         </Badge>
         <Badge variant="secondary" className="px-3 py-1">
           #Travel
-        </Badge>
+        </Badge>``
         <Badge variant="secondary" className="px-3 py-1">
           #Wellness
         </Badge>
